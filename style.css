@@ -13,3 +13,8 @@
 .text-muted {
   color: gray
 }
+
+form {
+  padding: 20px;
+  background-color: aquamarine;
+}

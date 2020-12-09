@@ -12,8 +12,8 @@ I objective was to complete this project using CSS and Bootstrap and semantic ta
 
 ### Mobile Responsive
 
-![Mobile Responsive](/assets/mobile-responsive.png)
+![Mobile Responsive](/assets/images/mobile-responsive.PNG)
 
 ### Desktop Responsive
 
-![Mobile Responsive](/assets/desktop-responsive.png) 
+![Desktop Responsive](/assets/images/desktop-responsive.PNG) 

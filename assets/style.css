@@ -10,9 +10,6 @@
   float: right;
 }
 
-h1 {
-  text-align: center;
-}
 
 .text-muted {
   color: gray
@@ -27,4 +24,14 @@ form {
 h3 {
   text-align: center;
   padding: 20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #e3e3e6;
+  color: white;
+  text-align: center;
 }

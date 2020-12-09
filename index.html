@@ -6,14 +6,11 @@
 
   <meta charset="UTF-8">
   <title>Sarah Marshall</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-
-  <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 
 <body>
@@ -40,55 +37,60 @@
 
   <main class="container">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">          
-          <div class="page-header">
-            <h1>About me</h1>
-          </div>
-        </div>
+      <div class="jumbotron text-center">
+        <h1>Who is Sarah Marshall</h1>      
+        <p>former flight attendant. stay-at-home-mother. aspiring developer.</p>
       </div>
-
+      
       <div class="row">
         <div class="col-md-3">
-            <img src="assets/2020-12-07.jpeg" alt="Sarah Marshall" class="img-fluid">
+            <img src="assets/2020-12-07.jpeg" alt="Sarah Marshall" class="img-fluid rounded img-thumbnail">
         </div>
         <div class="col-md-9">
           <p>
-            I am currently enrolled in a coding bootcamp through UNC Chapel Hill with extensive experience in the hospitality industry. I am a very detail oriented person and enjoy finding solutions and solving puzzles which is why I am so excited to begin my coding journey. 
+            I have always worked in jobs and careers that involved customer service and hospitality. I am currently enrolled in a coding bootcamp through UNC Chapel Hill to learn how to become a full stack developer. 
+            <br>
+            <br>
+            I aspire to take what I know from the hospitality and service industry and apply it to the web developing world. I have experience engaging with a wide range of people and love finding solutions to problems. I love any kind of puzzle and look forward to designing my own code and building something beautiful.   
+            <br>
+            <br>
+            I am very detail oriented and work well under pressure while handling multiple tasks at once and accepting change as it happens. I have been a cashier at one of the busiest fast-food restarants at Disneyland during peak season. I have been a flight attendant stranded for days during storms and working through cancellations and rerouting. But most importantly, I have been a stay-at-home-mother to a toddler and a newborn during a global pandmeic.
           </p>
         </div>
       </div>
+    </div>
+  </main>
 
-      <div class="row">
-        <div class="col-md-12">
-          <h3>Skillset to aquire during bootcamp</h3>
-        </div>
+  <section class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Skillset to aquire during bootcamp</h3>
       </div>
 
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 p-5">
           <h6>Computer Science applied to Javascript</h6>
-          <ul>            
-            <li>Algorithms</li>
-            <li>Efficiency</li>
-            <li>Time Complexity</li>
-            <li>Big O Notation</li>
-            <li>Data Structures</li>
-          </ul>
+            <ul>            
+              <li>Algorithms</li>
+              <li>Efficiency</li>
+              <li>Time Complexity</li>
+              <li>Big O Notation</li>
+              <li>Data Structures</li>
+            </ul>
           <h6>Browser Based Technologies</h6>
-          <ul>           
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>Responsive Design</li>
-            <li>Bootstrap</li>
-            <li>Handlebars</li>
-            <li>Local Storage, Session Storage, IndexedDB</li>
-            <li>React.js</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
+            <ul>           
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>Responsive Design</li>
+              <li>Bootstrap</li>
+              <li>Handlebars</li>
+              <li>Local Storage, Session Storage, IndexedDB</li>
+              <li>React.js</li>
+            </ul>
+        </div>  
+        <div class="col-md-4 p-5">
           <h6>API Interaction</h6>
             <ul>
               <li>API</li>
@@ -108,10 +110,10 @@
           
           
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 p-5">
           <h6>Databases</h6>
             <ul>            
-              <li>MySqk</li>
+              <li>MySQL</li>
               <li>MongoDB</li>
             </ul>
           <h6>Server Side Development</h6>
@@ -133,14 +135,33 @@
         </div>
       </div>
 
-      </div>
     </div>
-  </main>
+  </section>
+  
 
-  <footer>
-    <p class="text-center text-muted fixed-bottom">
-      &#169 Copyright Sarah Marshall
-    </p>
+  <footer class="footer">
+
+    <div class=row>
+
+      <div class="col-md-6">
+        <p class="text-center text-muted">
+          &#169 Copyright Sarah Marshall
+        </p>
+        
+      </div>
+      
+      <div class="col-md-6">
+        <a href="mailto:sr70079@gmail.com"> <i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/sr70079"> <i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/sarah-marshall-47773978/"> <i class="fab fa-linkedin-in"></i></a>
+        <a href="tel:+3364037330"> <i class="fas fa-mobile-alt"></i></a>
+        
+      </div>
+
+
+    </div>
+    
+    
   </footer>
   
 

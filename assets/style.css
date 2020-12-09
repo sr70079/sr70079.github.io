@@ -2,8 +2,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.element 
-
 .navbar {
   display: flex;
   flex-wrap: wrap;
@@ -16,16 +14,14 @@ body {
   float: right;
 }
 
-
 .text-muted {
   color: gray
 }
 
 form {
-  padding: 20px;
+  padding: 30px;
   background-color: #e3e3e6;
 }
-
 
 h3 {
   text-align: center;
@@ -41,9 +37,3 @@ h3 {
   color: white;
   text-align: center;
 }
-
-
-  @media (max-width: 768px) {
-  
-    }
-  }

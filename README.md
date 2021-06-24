@@ -1,6 +1,6 @@
 # Sarah Marshall React Portfolio
 
-https://sr70079.github.io/sarahmarshall-portfolio/
+https://sr70079.github.io/
 
 ### Description: 
 

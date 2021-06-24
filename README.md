@@ -1,19 +1,19 @@
-# CSS and Bootstrap: Responsive Portfolio
+# Sarah Marshall React Portfolio
 
-My personal website
+https://sr70079.github.io/sarahmarshall-portfolio/
 
-### Assignment:
+### Description: 
 
-Create an online portfolio using CSS and Bootstrap and make it responsive across desktop, tablet, and mobile devices. 
+Using a previous portfolio created using only HTML/CSS/Bootstrap, I transfered the app into a React App Portfolio
 
-### My Approach:
+### Demo
 
-My objective was to complete this project using CSS and Bootstrap and semantic tags in HTML. I wanted a clean look so I used Google Fonts and Bootstrap grid system throughout my portfolio. I hope to build on this portfolio as the bootcamp course progresses and use it as my professional site when I enter the job market. 
+Demo of React Portfolio
+<img src="/public/images/portfolio.gif">
 
-### Mobile Responsive:
+### Questions: 
 
-![Mobile Responsive](/assets/images/mobile-responsive.PNG)
+If you have any issues about the repo, please contact me via email at sr70079@gmail.com
 
-### Desktop Responsive:
+You can find more of my work at sr70079
 
-![Desktop Responsive](/assets/images/desktop-responsive.PNG) 

@@ -9,7 +9,7 @@ function ProjectCard(props) {
         <img alt={props.title} src={props.thumbnail} />
       </div> */}
       <div className="content">
-        <img src={`${process.env.PUBLIC_URL}${props.thumbnail}`} width="550" height="350" />
+        <img src={`${props.thumbnail}`} width="550" height="350" />
         <ul>
           <li>
             <strong>Title:</strong> {props.title}

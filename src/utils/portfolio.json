@@ -1,42 +1,42 @@
 [
     {
         "title" : "Weather Dashboard",
-        "thumbnail" : "/images/weather-app.png",
+        "thumbnail" : "./images/weather-app.png",
         "description" : "Using OpenWeather API I created a weather dashboard that allows the user to view current and future weather conditions for multiple cities.",
         "repoLink" : "https://github.com/sr70079/Weather-Dashboard",
         "deployedLink" : "https://sr70079.github.io/Weather-Dashboard/"
     },
     {
         "title" : "Team Profile Generator",
-        "thumbnail" : "/images/team-profile-gen.png",
+        "thumbnail" : "./images/team-profile-gen.png",
         "description" : "Command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage and displays a summary each person.",
         "repoLink" : "https://github.com/sr70079/Team-Profile-Generator",
         "deployedLink" : "https://github.com/sr70079/Team-Profile-Generator"
     },
     {
         "title" : "Work Day Scheduler",
-        "thumbnail" : "/images/scheduler.png",
+        "thumbnail" : "./images/scheduler.png",
         "description" : "Usinging the Moment.js library, I created a work day calendar to help manage time effectively, which allows users to save events for each hour of the day.",
         "repoLink" : "https://github.com/sr70079/homework5.",
         "deployedLink" : "https://sr70079.github.io/homework5/"
     },
     {
         "title" : "Burger",
-        "thumbnail" : "/images/burger-app.png",
+        "thumbnail" : "./images/burger-app.png",
         "description" : "Eat-Da-Burger is a restaurant application that lets users input the names of the burgers that they would like to eat. This burger logger was created with MySQL, Node, Express, Handlebars and a homemade ORM and follows the MVC design pattern.",
         "repoLink" : "https://github.com/sr70079/Eat-Da-Burger",
         "deployedLink" : "https://eats-da-burgers.herokuapp.com/"
     },
     {
         "title" : "Note Taker",
-        "thumbnail" : "/images/note-taker.png",
+        "thumbnail" : "./images/note-taker.png",
         "description" : "An application used to create and save notes. The notes can be stored locally so the user can come back and see them later.",
         "repoLink" : "https://github.com/sr70079/Note-Taker",
         "deployedLink" : "https://cryptic-dusk-48618.herokuapp.com/"
     },   
     {
         "title" : "Password Generator",
-        "thumbnail" : "/images/password-generator.png",
+        "thumbnail" : "./images/password-generator.png",
         "description" : "Create an application to generate a random password based on the criteria the user selects through a series of prompts. If the user does not meet the password requirements an alert notifies the user to re-enter the information needed.",
         "repoLink" : "https://github.com/sr70079/homework3",
         "deployedLink" : "https://sr70079.github.io/homework3/"
